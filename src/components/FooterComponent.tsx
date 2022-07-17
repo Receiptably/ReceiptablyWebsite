@@ -14,7 +14,7 @@ const FooterComponent = () => {
               <Container className="p-0 m-0 colContainerStyle">
                 <img
                   alt=""
-                  src="/icon.png"
+                  src="https://storage.googleapis.com/vinta-public-website/icon.png"
                   width="45"
                   height="45"
                   className="d-inline-block align-top"

@@ -23,7 +23,7 @@ const NavBarComponent = () => {
                 <Navbar.Brand href="/Home" style={{display: "flex", justifyContent: "left", alignItems: "center"}}>
                   <img
                     alt=""
-                    src="/icon.png"
+                    src="https://storage.googleapis.com/vinta-public-website/icon.png"
                     width="40"
                     height="40"
                     className="d-inline-block align-top"
