@@ -15,7 +15,7 @@ const App = () => {
         titleTemplate="Vinta | %s"
         defaultTitle="Vinta | Home"
       />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <NavBarComponent />
           <RoutesComponent />
