@@ -19,7 +19,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Set Creds
-          run: git config user.name "CorbynG98" && git config user.email "corbyn.greenwood.98@gmail.com"
+        run: git config user.name "CorbynG98" && git config user.email "corbyn.greenwood.98@gmail.com"
 
       - name: npm ci, deploy (custom script)
         run: |
