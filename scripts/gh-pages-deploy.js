@@ -8,9 +8,10 @@ const fs = require("fs");
     console.log("Building started...");
     await execa("npm", ["run", "build"]);
     // Understand if it's dist or build folder
+    // Should be dist for VUE, build for REACT
     const folderName = fs.existsSync("dist") ? "dist" : "build";
     // await execa("cp", ['./CNAME', './dist/CNAME']) // Copy the cname data in for custom domains
-    await execa("cp", ['./dist/index.html', './dist/404.html']) // Copy the index page and rename 404. Take over github 404 when hit
+    await execa("cp", [`./${folderName}/index.html`, `./${folderName}/404.html`]) // Copy the index page and rename 404. Take over github 404 when hit
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
