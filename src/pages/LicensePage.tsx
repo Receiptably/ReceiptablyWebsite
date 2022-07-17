@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap';
 
-export default function HomePage() {
+export default function LicensePage() {
     // Build UI
     return (
         <React.Fragment>
             <div className="containerStyle">
                 <Container>
-                    <p style={{color: "white"}}>This will eventually be the home page once I do some config</p>
+                    <p style={{color: "white"}}>This page will have the license information on it</p>
                 </Container>
             </div>
         </React.Fragment>

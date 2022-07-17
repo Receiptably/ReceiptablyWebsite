@@ -6,6 +6,7 @@ import NavBarComponent from './components/NavBarComponent';
 import RoutesComponent from './components/RoutesComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom.css'
+import FooterComponent from "./components/FooterComponent";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <div>
           <NavBarComponent />
           <RoutesComponent />
+          <FooterComponent />
         </div>
       </Router>
     </HelmetProvider>

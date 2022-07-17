@@ -1,9 +1,10 @@
 import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faBeerMugEmpty } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
 
-function NavBarComponent() {
+const NavBarComponent = () => {
   const [isAtTop, setIsAtTop] = useState<boolean>(true);
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -39,7 +40,8 @@ function NavBarComponent() {
               </Col>
               <Col md="2">
                   <div style={{display: "flex", justifyContent: "right", alignItems: "center"}}>
-                    <FontAwesomeIcon icon={faGithub} size="2x" color="white" />
+                    <a href="https://github.com/VintaNZ"><FontAwesomeIcon icon={faGithub} size="2x" color="white" style={{paddingRight: "0.8rem"}} /></a>
+                    <a href="https://www.buymeacoffee.com/corbyn"><FontAwesomeIcon icon={faBeerMugEmpty} size="2x" color="white" /></a>
                   </div>
               </Col>
             </Row>
