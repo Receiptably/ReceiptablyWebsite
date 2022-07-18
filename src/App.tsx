@@ -12,8 +12,8 @@ const App = () => {
   return (
     <HelmetProvider>
       <Helmet 
-        titleTemplate="Vinta | %s"
-        defaultTitle="Vinta | Home"
+        titleTemplate="Receiptably | %s"
+        defaultTitle="Receiptably | Home"
       />
       <Router basename={process.env.PUBLIC_URL}>
         <div>

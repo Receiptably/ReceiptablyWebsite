@@ -1,5 +1,5 @@
 {
-  "name": "vintawebsite",
+  "name": "receiptablywebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -52,5 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://vintanz.github.io/VintaWebsite/"
+  "homepage": "https://receiptably.com"
 }

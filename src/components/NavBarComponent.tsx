@@ -23,13 +23,13 @@ const NavBarComponent = () => {
                 <Navbar.Brand href="/Home" style={{display: "flex", justifyContent: "left", alignItems: "center"}}>
                   <img
                     alt=""
-                    src="https://storage.googleapis.com/vinta-public-website/icon.png"
+                    src="https://storage.googleapis.com/receiptably-public-website/icon.png"
                     width="40"
                     height="40"
                     className="d-inline-block align-top"
                     style={{borderRadius: "15%"}}
                   />{' '}
-                  <strong style={{marginLeft: "1rem"}}>Vinta</strong>
+                  <strong style={{marginLeft: "1rem"}}>Receiptably</strong>
                 </Navbar.Brand>
               </Col>
               <Col md="8">
@@ -40,7 +40,7 @@ const NavBarComponent = () => {
               </Col>
               <Col md="2">
                   <div style={{display: "flex", justifyContent: "right", alignItems: "center"}}>
-                    <a href="https://github.com/VintaNZ"><FontAwesomeIcon icon={faGithub} size="2x" color="white" style={{paddingRight: "0.8rem"}} /></a>
+                    <a href="https://github.com/Receiptably"><FontAwesomeIcon icon={faGithub} size="2x" color="white" style={{paddingRight: "0.8rem"}} /></a>
                     <a href="https://www.buymeacoffee.com/corbyn"><FontAwesomeIcon icon={faBeerMugEmpty} size="2x" color="white" /></a>
                   </div>
               </Col>

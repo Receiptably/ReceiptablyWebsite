@@ -16,7 +16,6 @@ const RoutesComponent = () => {
       <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/Home" element={<HomePage />} />
-          <Route path="/VintaWebsite" element={<HomePage />} /> {/* REQUIRED FOR GITHUB ACTIONS DEPLOY */}
           <Route path="/Roadmap" element={<RoadmapPage />} />
           <Route path="/FAQ" element={<FAQPage />} />
           <Route path="/Changelog" element={<ChangelogPage />} />
