@@ -1,7 +1,4 @@
-import {
-  Routes,
-  Route
-} from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 // CORE PAGES =====================
 import HomePage from '../pages/HomePage';
 import RoadmapPage from '../pages/RoadmapPage';
@@ -13,16 +10,16 @@ import NotFoundPage from '../pages/NotFoundPage';
 
 const RoutesComponent = () => {
   return (
-      <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/Home" element={<HomePage />} />
-          <Route path="/Roadmap" element={<RoadmapPage />} />
-          <Route path="/FAQ" element={<FAQPage />} />
-          <Route path="/Changelog" element={<ChangelogPage />} />
-          <Route path="/License" element={<LicensePage />} />
-          <Route path="*" element={<NotFoundPage />}/>
-      </Routes>
+    <Routes>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/Home' element={<HomePage />} />
+      <Route path='/Roadmap' element={<RoadmapPage />} />
+      <Route path='/FAQ' element={<FAQPage />} />
+      <Route path='/Changelog' element={<ChangelogPage />} />
+      <Route path='/License' element={<LicensePage />} />
+      <Route path='*' element={<NotFoundPage />} />
+    </Routes>
   );
-}
+};
 
 export default RoutesComponent;

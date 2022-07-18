@@ -1,68 +1,69 @@
 /* ========== CORE TAG STYLES ========== */
-html, body {
-    background: radial-gradient(#262626, black);
+html,
+body {
+  background: radial-gradient(#262626, black);
 }
 /* ===================================== */
 
 /* ========== NAVBAR STYLES ========== */
 .navNoBackground {
-    background: none;
-    border: none;
-    backdrop-filter: none;
-    height: 5rem;
+  background: none;
+  border: none;
+  backdrop-filter: none;
+  height: 5rem;
 }
 .navSemiBackground {
-    background-color: rgba(13, 14, 17, 0.8);
-    border-color: rgb(32, 34, 45);
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    backdrop-filter: blur(18px);
-    height: 5rem;
+  background-color: rgba(13, 14, 17, 0.8);
+  border-color: rgb(32, 34, 45);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  backdrop-filter: blur(18px);
+  height: 5rem;
 }
 /* =================================== */
 
 /* ========== FOOTER STYLES ========== */
 .footerBackgroundStyle {
-    background-color: rgba(13, 14, 17, 0.8);
-    border-color: rgb(32, 34, 45);
-    border-top-width: 1px;
-    border-top-style: solid;
-    backdrop-filter: blur(18px);
+  background-color: rgba(13, 14, 17, 0.8);
+  border-color: rgb(32, 34, 45);
+  border-top-width: 1px;
+  border-top-style: solid;
+  backdrop-filter: blur(18px);
 }
 
 .footerPositionStyle {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 15rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .colContainerStyle {
-    display: flex;
-    flex-direction: column;
-    height: 11rem;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  width: 100%;
 }
 /* =================================== */
 
 /* ========== Container Styles ========== */
 .containerStyle {
-    height: calc(100vh - 20rem);
-    padding-top: 7rem;
+  height: calc(100vh - 20rem);
+  padding-top: 7rem;
 }
 /* ====================================== */
 
 /* ========== Custom Styles ========== */
 .linkStyle {
-    text-decoration: none;
-    color: rgb(166, 170, 191);
-    transition: 0.3s;
-    margin-bottom: 0.1rem !important;
+  text-decoration: none;
+  color: rgb(166, 170, 191);
+  transition: 0.3s;
+  margin-bottom: 0.1rem !important;
 }
 
 .linkStyle:hover {
-    color: white
+  color: white;
 }
 /* =================================== */

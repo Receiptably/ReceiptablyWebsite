@@ -32,7 +32,7 @@
     "start": "craco start",
     "build": "craco build",
     "deploy": "node scripts/gh-pages-deploy.js",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "prettier": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -52,5 +52,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://receiptably.com"
+  "homepage": "https://receiptably.com",
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
 }
